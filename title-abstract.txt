@@ -1,5 +1,15 @@
-Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Title: FlyKD: Graph Knowledge Distillation on the Fly with Curriculum Learning
 
-Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Abstract: Knowledge Distillation (KD) aims to transfer a more capable teacher
+model’s knowledge to a lighter student model in order to improve the efficiency 
+of the model, making it faster and more deployable. However, the student 
+model’s optimization process over the noisy pseudo labels (generated
+by the teacher model) is tricky and the amount of pseudo labels one can 
+generate is limited due to Out of Memory (OOM) error. In this paper, we propose
+FlyKD (Knowledge Distillation on the Fly) which enables the generation of virtually 
+unlimited number of pseudo labels, coupled with Curriculum Learning
+that greatly alleviates the optimization process over the noisy pseudo labels.
+Empirically, we observe that FlyKD outperforms vanilla KD and the renown
+Local Structure Preserving Graph Convolutional Network (LSPGCN). Lastly,
+with the success of Curriculum Learning, we shed light on a new research
+direction of improving optimization over noisy pseudo labels.
